@@ -29,7 +29,7 @@ public class RollableWithStringTester {
 
 	private int nextInt(String s, int i) {
 
-		if(s.substring(i, i+1).equals(",")){
+		if(",".equals(s.substring(i, i+1))){
 			return -1;
 		}
 
